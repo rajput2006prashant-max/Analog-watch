@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Mobile responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AnyClock</title>
+
+    <!-- CSS file connect -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="clock-container">
+
+        <!-- Heading -->
+        <h1>AnyClock</h1>
+        <p class="subtitle">Digital + Analog Clock</p>
+
+        <!-- Analog Clock -->
+        <div class="analog-clock">
+
+            <!-- Clock hands -->
+            <div class="hand hour" id="hour"></div>
+            <div class="hand minute" id="minute"></div>
+            <div class="hand second" id="second"></div>
+
+            <!-- Center dot -->
+            <div class="center-dot"></div>
+
+            <!-- Clock numbers -->
+            <span class="number n1">1</span>
+            <span class="number n2">2</span>
+            <span class="number n3">3</span>
+            <span class="number n4">4</span>
+            <span class="number n5">5</span>
+            <span class="number n6">6</span>
+            <span class="number n7">7</span>
+            <span class="number n8">8</span>
+            <span class="number n9">9</span>
+            <span class="number n10">10</span>
+            <span class="number n11">11</span>
+            <span class="number n12">12</span>
+
+        </div>
+        <div class="buttons">
+    <button id="themeBtn">☀️ Light Mode</button>
+    <button id="formatBtn">24 Hour</button>
+    <button id="fullscreenBtn">⛶ Fullscreen</button>
+</div>
+
+        <!-- Digital Clock -->
+        <div class="digital-clock">
+
+            <span id="digitalTime">00:00:00</span>
+
+            <span id="ampm">AM</span>
+
+        </div>
+
+        <!-- Date -->
+        <div class="date" id="date">
+            Monday, 1 January 2026
+        </div>
+
+    </div>
+
+    <!-- JavaScript file connect -->
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
+
